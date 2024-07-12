@@ -76,12 +76,12 @@ header {
 }
 #navbar li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 30px;
     position: relative;
 }
 #navbar li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #1a1a1a;
     transition: 0.3s ease;
@@ -106,22 +106,18 @@ header {
     justify-content: right;
     height: 30px;
     background: #EEEEEE;
-}
-
-.login li {
     list-style: none;
     position: relative;
 }
-
-.login li a {
+.login a {
      text-decoration: none;
      font-size: 16px;
      font-weight: 700;
      color: #1a1a1a;
      transition: 0.3s ease;
+     margin-right: 210px;
 }
 .icon {
-    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +130,53 @@ icon a {
     font-weight: 700;
     color: #1a1a1a;
     transition: 0.3s ease;
+    padding: 5px;
 }
 .bg-icon {
     padding-right: 5px;
+}
+/*newsleller*/
+#newsleller {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+#newsleller h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+#newsleller p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #818ea0;
+}
+#newsleller p span{
+    color: #ffbd27;
+}
+#newsleller .form{
+    display: flex;
+    width: 30%;
+}
+#newsleller input{
+    height: 3.125rem;
+    padding: 0 0.125em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: o;
+    border-bottom-right-radius: 0;
+}
+#newsleller button{
+    background-color: #088176;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
