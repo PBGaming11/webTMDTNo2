@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" action="width-device-width, initial-scale-1.0">
+        <title>DNDShop</title>
+        <link href="~/css/style.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <div class="login">
+            <li id="lg-user"><a href="#"></a><i class='bx bxs-user'></i>Login</li>
+        </div>
+        <header>
+        <!--Logo + thanh navbar-->
+        <a href="#"><img src="~/img/logo.png" class="logo" alt="" /></a>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <a class="bg-icon" href="#"><i class='bx bxs-heart'></i></a></li>
+                <a class="bg-icon" href="#"><i class='bx bx-cart-alt'></i></a></li>
+                <span>Tổng tiền: 100,000 Đ</span></li>
+        </div>
+        </header>
+        @RenderBody()
+    </body>
+    </html>
